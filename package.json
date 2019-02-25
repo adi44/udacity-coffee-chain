@@ -1,0 +1,22 @@
+{
+  "name": "supply-chain-E",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "ganache-cli": "ganache-cli -m 'warrior kangaroo tank foil culture such ceiling dawn orchard eternal fetch usual'",
+    "test": "./node_modules/.bin/truffle test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "author": "Kostas Mamalis <when@kostas.codes>",
+  "devDependencies": {
+    "lite-server": "2.4.0",
+    "openzeppelin-solidity": "2.1.2",
+    "truffle": "^5.0.1",
+    "truffle-hdwallet-provider": "1.0.2",
+    "web3": "^0.20.0",
+    "web3-provider-engine": "^14.1.0"
+  }
+}
